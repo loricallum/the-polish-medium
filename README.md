@@ -6,8 +6,6 @@
 <a href="https://github.com/kriasoft/react-starter-kit/stargazers"><img src="https://img.shields.io/github/stars/kriasoft/react-starter-kit.svg?style=social&label=Star&maxAge=3600" height="20"></a>
 <a href="https://twitter.com/koistya"><img src="https://img.shields.io/twitter/follow/koistya.svg?style=social&label=Follow&maxAge=3600" height="20"></a>
 
-The web's most popular Jamstack front-end template for building web applications with
-[React](https://reactjs.org/).
 
 ## Features
 
@@ -24,38 +22,6 @@ The web's most popular Jamstack front-end template for building web applications
 ---
 
 This project was bootstrapped with [React Starter Kit](https://github.com/kriasoft/react-starter-kit).
-Be sure to join our [Discord channel](https://discord.com/invite/2nKEnKq) for assistance.
-
-## Directory Structure
-
-`├──`[`.github`](.github) — GitHub configuration including CI/CD workflows<br>
-`├──`[`.vscode`](.vscode) — VSCode settings including code snippets, recommended extensions etc.<br>
-`├──`[`common`](./common) — Common (shared) React components<br>
-`├──`[`core`](./core) — Core modules, React hooks, environment variables, etc.<br>
-`├──`[`dialogs`](./dialogs) — React components implementing modal dialogs<br>
-`├──`[`icons`](./icons) — Custom icon React components<br>
-`├──`[`menus`](./menus) — React components implementing popup menus<br>
-`├──`[`public`](./public) — Static assets such as robots.txt, index.html etc.<br>
-`├──`[`routes`](./routes) — Application routes and page (screen) components<br>
-`├──`[`scripts`](./scripts) — Automation scripts such as `yarn deploy`<br>
-`├──`[`theme`](./theme) — Application theme - colors, fonts, paddings, etc.<br>
-`├──`[`workers`](./workers) — Cloudflare Worker scripts (reverse proxy, SSR)<br>
-`└──`[`index.ts`](./index.ts) — Application entry point<br>
-
-## Tech Stack
-
-- [React](https://reactjs.org/), [Emotion](https://emotion.sh/),
-  [Material UI v5](https://next.material-ui.com/)
-- [TypeScript](https://www.typescriptlang.org/), [Babel](https://babeljs.io/),
-  [ESLint](https://eslint.org/), [Prettier](https://prettier.io/),
-  [Jest](https://jestjs.io/), [Yarn](https://yarnpkg.com/) with PnP,
-  [Webpack v5](https://webpack.js.org/)
-
-## Requirements
-
-- [Node.js](https://nodejs.org/) v16 or newer, [Yarn](https://yarnpkg.com/) package manager
-- [VS Code](https://code.visualstudio.com/) editor with [recommended extensions](.vscode/extensions.json)
-
 ## Getting Started
 
 [Generate](https://github.com/kriasoft/react-starter-kit/generate) a new project
@@ -116,19 +82,6 @@ Where `--env` argument is the target deployment area, e.g. `yarn deploy --env=pr
 
 <a href="https://reactstarter.com/b/1"><img src="https://reactstarter.com/b/1.png" height="60" /></a>&nbsp;&nbsp;<a href="https://reactstarter.com/b/2"><img src="https://reactstarter.com/b/2.png" height="60" /></a>&nbsp;&nbsp;<a href="https://reactstarter.com/b/3"><img src="https://reactstarter.com/b/3.png" height="60" /></a>&nbsp;&nbsp;<a href="https://reactstarter.com/b/4"><img src="https://reactstarter.com/b/4.png" height="60" /></a>&nbsp;&nbsp;<a href="https://reactstarter.com/b/5"><img src="https://reactstarter.com/b/5.png" height="60" /></a>&nbsp;&nbsp;<a href="https://reactstarter.com/b/6"><img src="https://reactstarter.com/b/6.png" height="60" /></a>&nbsp;&nbsp;<a href="https://reactstarter.com/b/7"><img src="https://reactstarter.com/b/7.png" height="60" /></a>&nbsp;&nbsp;<a href="https://reactstarter.com/b/8"><img src="https://reactstarter.com/b/8.png" height="60" /></a>
 
-## Related Projects
-
-- [GraphQL API and Relay Starter Kit](https://github.com/kriasoft/graphql-starter) — monorepo template, pre-configured with GraphQL API, React, and Relay
-- [Cloudflare Workers Starter Kit](https://github.com/kriasoft/cloudflare-starter-kit) — TypeScript project template for Cloudflare Workers
-- [Node.js API Starter Kit](https://github.com/kriasoft/node-starter-kit) — project template, pre-configured with Node.js, GraphQL, and PostgreSQL
-
-## How to Contribute
-
-Anyone and everyone is welcome to [contribute](.github/CONTRIBUTING.md). Start
-by checking out the list of [open issues](https://github.com/kriasoft/react-starter-kit/issues)
-marked [help wanted](https://github.com/kriasoft/react-starter-kit/issues?q=label:"help+wanted").
-However, if you decide to get involved, please take a moment to review the
-[guidelines](.github/CONTRIBUTING.md).
 
 ## License
 
